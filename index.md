@@ -1,4 +1,7 @@
-# La Panonnaise
+---
+layout: page
+title: La Panonnaise
+---
 
 ## 1/ West Coast Rules ! (5%, 33 cl – 1,50 €)
 IPA typée West Coast, nette et expressive. Amertume franche, finale sèche et rafraîchissante.  
