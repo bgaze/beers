@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-</head>
-<body>
-<div id="content">
 # La Panonnaise
 
 ## 1/ West Coast Rules ! (5%, 33 cl – 1,50 €)
@@ -36,14 +28,3 @@ Cinq malts lui donnent une belle complexité : notes de café et de chocolat gr�
 ## 6/ Ginger Beer (9.5%, 25 cl – 1 €)
 Très sec (zéro sucre) et très puissant en gingembre.  
 Plutôt destiné aux cocktails ; seul, c’est volontairement rude. Rien à voir avec les ginger beers industrielles, qui sont des sodas.
-</div>
-
-<script>
-fetch('list.md')
-  .then(r => r.text())
-  .then(md => {
-    document.getElementById('content').innerHTML = marked.parse(md);
-  });
-</script>
-</body>
-</html>
